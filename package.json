@@ -1,5 +1,5 @@
 {
-  "name": "learn-angular-first-proj",
+  "name": "demo-project-timemanager",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",

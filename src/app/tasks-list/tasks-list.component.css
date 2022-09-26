@@ -1,0 +1,11 @@
+section {
+  flex: 1;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+}
+
+section > app-task-list {
+    margin: 10px;
+}
+

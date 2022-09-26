@@ -1,0 +1,4 @@
+<section>
+<!-- <app-task-list [task]="tasksList[0]"></app-task-list> -->
+<app-task-list *ngFor="let task of tasksList" [task]="task" [ngClass]="{ 'important': task.important === true,  'notimportant':task.important === false}"></app-task-list>
+</section>

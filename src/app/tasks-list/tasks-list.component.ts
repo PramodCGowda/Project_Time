@@ -15,7 +15,7 @@ export class TasksListComponent implements OnInit {
 tasksList = [
   {
     taskName: "Eat",
-    hours: 1,
+    hours: 3,
     priority: 1,
     important: false,
     isCompleted: true,
